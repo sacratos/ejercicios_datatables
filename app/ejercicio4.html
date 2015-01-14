@@ -458,10 +458,15 @@
     <script>
     $(document).ready(function(){
         $('#mitabla').DataTable({
-            "paging":false;
-            "filter":false;
-        })
-    })
+            
+            "order":[0,"asc"];
+            "columnDefs":[{
+                "targets": [2,3],
+                "visible": false,
+                "searchable": true
+            }];
+        });
+    });
     </script>
 
 </body>

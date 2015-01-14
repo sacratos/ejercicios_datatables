@@ -460,8 +460,11 @@
         $('#mitabla').DataTable({
             "paging":false;
             "filter":false;
-        })
-    })
+            "order":[
+                [4,"desc"],
+                [3,"asc"]]
+        });
+    });
     </script>
 
 </body>
