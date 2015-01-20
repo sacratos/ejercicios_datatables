@@ -443,8 +443,7 @@
         </tfoot>
     </table>
 
-
-    <!-- build:js(.) scripts/vendor.js -->
+ <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/datatables/media/js/jquery.dataTables.js"></script>
@@ -454,6 +453,11 @@
     <!-- build:js({app,.tmp}) scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
+    <script>
+    $(document).ready(function() {
+        $('#miTabla').DataTable();
+    });
+    </script>
 </body>
 
 </html>
