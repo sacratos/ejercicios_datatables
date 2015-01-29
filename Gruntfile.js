@@ -19,7 +19,7 @@ module.exports = function (grunt) {
   // Configurable paths
   var config = {
     app: 'app',
-    dist: 'dist'
+    dist: '/var/www/datatables2'//aqui cambiio el url 'dist'
   };
 
   // Define the configuration for all the tasks
@@ -288,7 +288,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             'images/{,*/}*.webp',
-            '{,*/}*.html',
+            '{,*/}*.php',//pOner .php y comprobar "grunt-shell":"^1.1.1", en package.json
             'styles/fonts/{,*/}*.*'
           ]
         }, {

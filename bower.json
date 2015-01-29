@@ -2,6 +2,8 @@
   "name": "ejercicios-datatables",
   "private": true,
   "dependencies": {
-    "datatables": "~1.10.4"
+    "datatables": "~1.10.4",
+    "bootstrap": "~3.3.2",
+    "jquery": "~2.1.3"
   }
 }
