@@ -288,7 +288,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             'images/{,*/}*.webp',
-            '{,*/}*.php',//pOner .php y comprobar "grunt-shell":"^1.1.1", en package.json
+            '{,*/}*.html',//pOner .php y comprobar "grunt-shell":"^1.1.1", en package.json
             'styles/fonts/{,*/}*.*'
           ]
         }, {
